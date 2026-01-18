@@ -1,6 +1,6 @@
 Personal Portfolio Website
 
-I built this portfolio website while learning  This project started and experimenting about web design, a small practice exercise to try building a full webpage.
+I built this portfolio website while learning and experimenting about web design, a small practice exercise to try building a full webpage.
 
 While working on this site, I learned how to structure a long single-page layouts and how different sections of a webpage fit together. I spent a lot of time experimenting with CSS Flexbox to align elements and control spacing, especially for sections with multiple columns.
 
