@@ -1,0 +1,319 @@
+.title {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 130px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    word-spacing: 10px;
+    color: rgb(43, 43, 43);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    position: relative;
+    padding: 40px 40px 40px 40px;
+    margin-top: 0px;
+    background-color: rgb(251, 243, 233);
+    z-index: 5;
+}
+
+.menu {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 13px 23px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    color: rgb(251, 243, 233);
+    border: 2px solid black;
+}
+
+.menu-items {
+    display: flex;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    gap: 5px;
+    z-index: 10;
+}
+
+.header-bottom {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.image1 {
+    position: relative;
+    height: 620px;
+    z-index: 0;
+    overflow: clip;
+}
+
+.image1 img {
+    width: 100%;
+    animation-name: scaledown;
+    animation-timeline: view();
+
+}
+
+@keyframes scaledown {
+    from {
+
+        transform: translateY(-760px) scale(1.5);
+    }
+
+    to {
+        transform: translateY(150px) scale(1);
+
+    }
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 50px 0px 50px;
+    margin-top: 0px;
+    background-color: rgb(251, 243, 233);
+}
+
+.div2-1 {
+    width: 60%;
+    border-right: 3px solid black;
+}
+
+.div2-2 {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.desc {
+    line-height: 75px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    letter-spacing: -3.5px;
+    word-spacing: 5px;
+    color: rgb(43, 43, 43);
+}
+
+.socials {
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    word-spacing: 0px;
+    color: rgb(43, 43, 43);
+}
+
+.social-icon {
+    display: flex;
+    gap: 15px;
+}
+
+.bottom {
+    height: 1px;
+    border-bottom: 3px solid black;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 50px 0px 50px;
+    margin-top: 0px;
+    background-color: rgb(251, 243, 233);
+
+}
+
+.div3-1 {
+    flex: 1;
+    border-right: 3px solid black;
+}
+
+.div3-2 {
+    flex: 2;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.interest {
+    flex: 1;
+
+}
+
+.titles {
+    line-height: 75px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    letter-spacing: -3.5px;
+    word-spacing: 5px;
+    color: rgb(43, 43, 43);
+}
+
+.descs {
+    color: rgb(43, 43, 43);
+    font-size: 17px;
+}
+
+.div4 {
+    height: 200px;
+    background-color:rgb(251, 243, 233);
+    overflow: clip;
+}
+
+.move {
+    width: 190%;
+    height: 100%;
+    background-image: url("n-logo.svg");
+    background-repeat: repeat-x;
+    background-size: calc(100% / 10) auto;
+    animation-name: side;
+    animation-timeline: view();
+}
+
+
+@keyframes side {
+    from {
+
+        transform: translateX(-860px) ;
+    }
+
+    to {
+        transform: translateX(0px) ;
+
+    }
+}
+
+.image2 {
+    position: relative;
+    height: 620px;
+    z-index: 0;
+    overflow: clip;
+}
+.image2 img{
+    width: 100%;
+    animation-name: scaledown2;
+    animation-timeline: view();
+}
+@keyframes scaledown2 {
+    from {
+
+        transform: translateX(-180px)translateY(-1800px) scale(1.5);
+
+    }
+
+    to {
+        transform: translateX(-180px) translateY(150px) scale(1);
+
+    }
+}
+.div5{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px 90px 50px;
+    margin-top: 0px;
+    background-color: rgb(251, 243, 233);
+}
+.date{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 25px;
+    border-radius: 30px;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    color: rgb(251, 243, 233);
+    border: none;
+
+}
+
+.image3{
+    position: relative;
+    height: 630px;
+    z-index: 0;
+    overflow: clip;
+}
+.image3 img{
+    width: 100%;
+    animation-name: scaledown3;
+    animation-timeline: view();
+}
+@keyframes scaledown3 {
+    from {
+
+        transform: translateX(-50px)translateY(-1000px) scale(1.5);
+
+    }
+
+    to {
+        transform: translateY(170px) scale(1);
+
+    }
+}
+.div6{
+    height: 100px;
+    padding: 50px 50px 590px 50px;
+    margin-top: 0px;
+    background-color: rgb(43, 43, 43);
+}
+.thank-you{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 130px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    word-spacing: 10px;
+    color: rgb(251, 243, 233);
+    text-align: center;
+}
+.visit{
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    word-spacing: 0px;
+    color: rgb(251, 243, 233);
+    text-align: center;
+}
+.black-div{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.blackbar{
+    flex: 1;
+    background-color: rgb(43, 43, 43);
+    animation: up 1s cubic-bezier(.83,0,.17,1) forwards;}
+
+.blackbar:nth-child(1){ animation-delay: 0s; }
+.blackbar:nth-child(2){ animation-delay: 0.1s; }
+.blackbar:nth-child(3){ animation-delay: 0.2s; }
+.blackbar:nth-child(4){ animation-delay: 0.3s; }
+.blackbar:nth-child(5){ animation-delay: 0.4s; }
+.blackbar:nth-child(6){ animation-delay: 0.5s; }
+
+@keyframes up{
+    to{
+        transform: translateY(-100%);
+    }
+}
